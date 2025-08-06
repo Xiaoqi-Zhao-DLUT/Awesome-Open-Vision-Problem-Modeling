@@ -11,7 +11,7 @@ Practical New Tasks and Inspiring Modeling Solutions for Diverse Open Vision Pro
 
 | <img src="images/VecFormer-task.png" width="400"/> | <img src="images/VecFormer-result.png" width="400"/> |
 |:--------------------------------------------------:|:--------------------------------------------------:|
-| **Task:** Computer-aided design (CAD) drawings. | **Modelling:** Type-agnostic and expressive line-based representation.|
+| **Task:** Computer-aided design (CAD) drawings. | **Modeling:** Type-agnostic and expressive line-based representation.|
 
 ### 2024 | NIGHTTIME OPTICAL FLOW | ICLR  
 **EXPLORING THE COMMON APPEARANCE-BOUNDARY ADAPTATION FOR NIGHTTIME OPTICAL FLOW**  
