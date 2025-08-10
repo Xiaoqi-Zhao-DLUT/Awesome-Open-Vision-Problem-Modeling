@@ -21,14 +21,6 @@ Practical New Tasks and Inspiring Modeling Solutions for Diverse Open Vision Pro
 |:--------------------------------------------------:|:--------------------------------------------------:|
 | **Task:** Customized manga generation with dynamic multi-character control from text. | **Modeling:**  Diffusion–MLLM hybrid framework using a text-compatible identity adapter and masked cross-attention for precise character and layout control.|
 
-### 2025 | LLada | CVPR
-**Where, What, Why: Towards Explainable Driver Attention Prediction**  
-<sup> Yuchen Zhou, Jiayu Tang, Xiaoyan Xiao, Yueyao Lin, Linkai Liu, Zipeng Guo, Hao Fei, Xiaobo Xia, Chao Gou</sup>  
-[Paper](https://arxiv.org/pdf/2506.23088)/[Code](https://github.com/yuchen2199/Explainable-Driver-Attention-Prediction)
-
-| <img src="images/LLada-task.png" width="400"/> | <img src="images/LLada-result.png" width="400"/> |
-|:--------------------------------------------------:|:--------------------------------------------------:|
-| **Task:** Explainable Driver Attention Prediction that identifies where drivers look, what they attend to, and why. | **Modeling:**  LLada, an LLM-driven framework integrating pixel-level attention, semantic parsing, and causal reasoning in an end-to-end model.|
 
 ### 2025 | LLada | ICCV
 **Where, What, Why: Towards Explainable Driver Attention Prediction**  
