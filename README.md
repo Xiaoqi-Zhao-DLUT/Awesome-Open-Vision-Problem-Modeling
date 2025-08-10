@@ -2,6 +2,15 @@
 Practical New Tasks and Inspiring Modeling Solutions for Diverse Open Vision Problems
 
 ---
+### 2025 | GraphDoc | ICLR
+**Graph-based Document Structure Analysis**  
+<sup>Yufan Chen, Ruiping Liu, Junwei Zheng, Di Wen, Kunyu Peng, Jiaming Zhang, Rainer Stiefelhagen</sup>  
+[Paper](https://arxiv.org/pdf/2403.14442)/[Code](https://github.com/yufanchen96/GraphDoc)
+
+| <img src="images/GraphDoc-task.png" width="400"/> | <img src="images/GraphDoc-result.png" width="400"/> |
+|:--------------------------------------------------:|:--------------------------------------------------:|
+| **Task:** Graph-based Document Structure Analysis. | **Modeling:** Document Relation Graph Generator(DRGG) combines object detection with relation prediction, capturing both spatial and logical relatioins between document elements.|
+
 ### 2025 | Paper2Poster | arXiv
 **Paper2Poster: Towards Multimodal Poster Automation from Scientific Papers**  
 <sup>Wei Pang, Kevin Qinghong Lin, Xiangru Jian, Xi He, Philip Torr</sup>  
