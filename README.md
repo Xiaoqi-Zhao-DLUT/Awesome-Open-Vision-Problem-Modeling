@@ -87,6 +87,22 @@
 |:--------------------------------------------------:|:--------------------------------------------------:|
 | **Task:** Simultaneous generation of surgical images and corresponding segmentation masks. | **Modeling:** Diffusion-based framework with cross-correlation priors and Canonical Fibonacci Lattice for aligned image–mask synthesis.|
 
+### 2024 | PanAf20K | IJCV
+**PanAf20K: A Large Video Dataset for Wild Ape Detection and Behaviour Recognition**  
+<sup>Otto Brookes, Majid Mirmehdi, Colleen Stephens, Samuel Angedakin,
+ Katherine Corogenes, Dervla Dowd, Paula Dieguez, Thurston C. Hicks,
+ Sorrel Jones, Kevin Lee, Vera Leinert, Juan Lapuente,
+ Maureen S. McCarthy, Amelia Meier, Mizuki Murai, Emmanuelle Normand,
+ Virginie Vergnes, Erin G. Wessling, Roman M. Wittig, Kevin Langergraber,
+ Nuria Maldonado, Xinyu Yang, Klaus Zuberb¨uhler, Christophe Boesch,
+ Mimi Arandjelovic, Hjalmar K¨uhl, Tilo Burghardt
+ </sup>  
+[Paper](https://arxiv.org/pdf/2401.13554)/[Code](https://obrookes.github.io/panaf.github.io/)
+
+| <img src="images/PanAf20K-task.png" width="800"/> | <img src="images/PanAf20K-result.png" width="400"/> |
+|:--------------------------------------------------:|:--------------------------------------------------:|
+| **Task:**  Wild Ape Detection and Behaviour Recognition. | **Modeling:** Object Detection + Behavioural Action Recognition.|
+
 ### 2024 | NIGHTTIME OPTICAL FLOW | ICLR  
 **EXPLORING THE COMMON APPEARANCE-BOUNDARY ADAPTATION FOR NIGHTTIME OPTICAL FLOW**  
 <sup>Hanyu Zhou, Yi Chang, Haoyue Liu, Wending Yan, Yuxing Duan, Zhiwei Shi, Luxin Yan</sup>  
