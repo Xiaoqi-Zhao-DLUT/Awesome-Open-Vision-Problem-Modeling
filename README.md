@@ -2,6 +2,15 @@
 ⭐Practical New Tasks and Inspiring Modeling Solutions for Diverse Open Vision Problems⭐
 
 ---
+### 2025 | EMind | arXiv
+**EMind: A Foundation Model for Multi-task Electromagnetic Signals Understanding**  
+<sup>Luqing Luo, Wenjin Gui, Yunfei Liu, Ziyue Zhang, Yunxi Zhang, Fengxiang Wang, Zonghao Guo, Zizhi Ma, Xinzhu Liu, Hanxiang He, Jinhai Li, Xin Qiu, Wupeng Xie, Yangang Sun</sup>  
+[Paper](https://www.arxiv.org/pdf/2508.18785)/[Code](https://github.com/GabrielleTse/EMind)
+
+| <img src="https://github.com/user-attachments/assets/2773c716-018e-41bc-808c-d62d1bc38ef7" width="800"/> | <img src="https://github.com/user-attachments/assets/54f84b54-a0c3-4965-be0c-2d4d68786ad2" width="400"/>                                                                                                                                                                           |
+| :------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| **Task:** Multi-task Electromagnetic Signals Understanding.                                              | **Modeling:** EMind, an electromagnetic signals foundation model that bridges large scale pretraining and the unique nature of this modality based on the proposed first unified and largest standardized electromagnetic signal dataset covering multiple signal types and tasks. |
+
 ### 2025 | GraphDoc | ICLR
 **Graph-based Document Structure Analysis**  
 <sup>Yufan Chen, Ruiping Liu, Junwei Zheng, Di Wen, Kunyu Peng, Jiaming Zhang, Rainer Stiefelhagen</sup>  
