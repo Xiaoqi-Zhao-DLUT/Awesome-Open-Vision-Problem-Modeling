@@ -3,6 +3,17 @@
 
 ---
 
+### 2026 | PCB Design Understanding | ICLR
+
+**PCB-Bench: Benchmarking LLMs for Printed Circuit Board Placement and Routing**  
+<sup>Jindong Li, Lianrong Chen, Bin Yang, Jiadong Zhu, Ying Wang, Yuzhe Ma, Menglin Yang</sup>  
+[Paper](https://openreview.net/forum?id=Q5QLu7XTWx)/[Code](https://github.com/digailab/PCB-Bench)/[Project](https://digailab.github.io/PCB-Bench/)
+
+| <img width="400" alt="image" src="https://github.com/user-attachments/assets/3ce8a3d8-730c-4aee-b6be-61e90b680e4f" /> | <img width="400" alt="image" src="https://github.com/user-attachments/assets/20714254-f095-4fdf-8992-16a1bdd82bdc" /> |
+| :-----------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------: |
+| **Task:** PCB placement and routing understanding through textual, multimodal, and real-world EDA design reasoning. | **Modeling:** LLM/MLLM-based engineering reasoning over text, PCB layout images, and EDA screenshots under a unified zero-shot evaluation protocol. |
+
+
 ### 2026 | Sky Segmentation | MLKE
 **SkySeg-Net: Sky Segmentation-Based Row-Terminal Recognition in Trellised Orchards**  
 <sup>Haiyang Gu, Yong Wang, Huaiyang Liu, Tong Tian, Changxing Geng, Yun Shi</sup>  
