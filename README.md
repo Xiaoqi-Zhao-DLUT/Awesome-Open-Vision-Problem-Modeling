@@ -3,6 +3,17 @@
 
 ---
 
+### 2026 | Unripe Tomato Segmentation | AgriEngineering
+
+**CMAE-Unet: A Study on a U-Net-Based Model for Semantic Segmentation of Unripe Tomato Images**  
+<sup>Jianhua Zheng, Huanghui Zhao, Xiaoshan Ma, Guiming Huang, Yongshen Liang, Jinfang Liu, Zhaoxi Luo, Yuanlan Ye, Jianru Chen</sup>  
+[Paper](https://doi.org/10.3390/agriengineering8090353)
+
+| <img width="400" alt="image" src="https://github.com/user-attachments/assets/7caee216-8de9-4f24-88ca-360481ef8a68" /> | <img width="400" alt="image" src="https://github.com/user-attachments/assets/7a36e7d1-e8dd-4f9b-a0ed-55028deb4fd2" /> |
+| :---------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------: |
+| **Task:** Unripe tomato segmentation under green-on-green camouflage, occlusion, and weak boundaries in natural field scenes. | **Modeling:** U-Net-based semantic segmentation with global-local attention, frequency-domain camouflage suppression, and directional edge enhancement. |
+
+
 ### 2026 | PCB Design Understanding | ICLR
 
 **PCB-Bench: Benchmarking LLMs for Printed Circuit Board Placement and Routing**  
