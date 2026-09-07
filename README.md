@@ -3,6 +3,21 @@
 
 ---
 
+### 2026 | Ancient Chinese Character Image Restoration | CVPR Findings
+
+**LWTformer: A Detail-Aware, Learnable Wavelet-Transformer for Ancient Chinese Character Image Restoration**  
+<sup>Wentao Ruan, Xinhui Li, Zhan Cheng, Cunhang Fan, Libao Tian, Zhao Lv</sup>  
+[Paper](https://openaccess.thecvf.com/content/CVPR2026F/html/Ruan_LWTformer_A_Detail-Aware_Learnable_Wavelet-Transformer_for_Ancient_Chinese_Character_Image_CVPRF_2026_paper.html)/[Code](https://github.com/INWLY/LWTformer)
+
+| <img width="400" alt="image" src="https://github.com/user-attachments/assets/4ba9e31c-5bf0-4e39-b2f0-0e33f4553286" /> | <img width="400" alt="image" src="https://github.com/user-attachments/assets/2eeaec12-48fd-4d75-a288-cb512e9a767c" /> |
+| :---: | :---: |
+| **Task:** Ancient Chinese character image restoration under erosion, abrasion, fractures, and noise while preserving fine strokes and glyph structures. | **Modeling:** Learnable wavelet-transformer that separates structural and stroke-detail frequencies via 2D-DWT, with structure-aware and wavelet-aware attention for detail-preserving restoration. |
+
+**Datasets:**
+* *Oracle Bone Inscription Dataset:* 1,758 paired images of real damaged oracle bone inscriptions.
+* *Warring States Period Chu Bamboo Slip Character Dataset (WSC41K):* 41,218 paired Warring States Chu bamboo-slip character images with easy, medium, hard, and mixed degradation levels.
+
+
 ### 2026 | Unripe Tomato Segmentation | AgriEngineering
 
 **CMAE-Unet: A Study on a U-Net-Based Model for Semantic Segmentation of Unripe Tomato Images**  
