@@ -3,6 +3,93 @@
 
 ---
 
+### 2026 | Ancient Chinese Character Image Restoration | CVPR Findings
+
+**LWTformer: A Detail-Aware, Learnable Wavelet-Transformer for Ancient Chinese Character Image Restoration**  
+<sup>Wentao Ruan, Xinhui Li, Zhan Cheng, Cunhang Fan, Libao Tian, Zhao Lv</sup>  
+[Paper](https://openaccess.thecvf.com/content/CVPR2026F/html/Ruan_LWTformer_A_Detail-Aware_Learnable_Wavelet-Transformer_for_Ancient_Chinese_Character_Image_CVPRF_2026_paper.html)/[Code](https://github.com/INWLY/LWTformer)
+
+| <img width="400" alt="image" src="https://github.com/user-attachments/assets/4ba9e31c-5bf0-4e39-b2f0-0e33f4553286" /> | <img width="400" alt="image" src="https://github.com/user-attachments/assets/2eeaec12-48fd-4d75-a288-cb512e9a767c" /> |
+| :---: | :---: |
+| **Task:** Ancient Chinese character image restoration under erosion, abrasion, fractures, and noise while preserving fine strokes and glyph structures. | **Modeling:** Learnable wavelet-transformer that separates structural and stroke-detail frequencies via 2D-DWT, with structure-aware and wavelet-aware attention for detail-preserving restoration. |
+
+**Datasets:**
+* *Oracle Bone Inscription Dataset:* 1,758 paired images of real damaged oracle bone inscriptions.
+* *Warring States Period Chu Bamboo Slip Character Dataset (WSC41K):* 41,218 paired Warring States Chu bamboo-slip character images with easy, medium, hard, and mixed degradation levels.
+
+
+### 2026 | Unripe Tomato Segmentation | AgriEngineering
+
+**CMAE-Unet: A Study on a U-Net-Based Model for Semantic Segmentation of Unripe Tomato Images**  
+<sup>Jianhua Zheng, Huanghui Zhao, Xiaoshan Ma, Guiming Huang, Yongshen Liang, Jinfang Liu, Zhaoxi Luo, Yuanlan Ye, Jianru Chen</sup>  
+[Paper](https://doi.org/10.3390/agriengineering8090353)
+
+| <img width="400" alt="image" src="https://github.com/user-attachments/assets/7caee216-8de9-4f24-88ca-360481ef8a68" /> | <img width="400" alt="image" src="https://github.com/user-attachments/assets/7a36e7d1-e8dd-4f9b-a0ed-55028deb4fd2" /> |
+| :---------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------: |
+| **Task:** Unripe tomato segmentation under green-on-green camouflage, occlusion, and weak boundaries in natural field scenes. | **Modeling:** U-Net-based semantic segmentation with global-local attention, frequency-domain camouflage suppression, and directional edge enhancement. |
+
+
+### 2026 | PCB Design Understanding | ICLR
+
+**PCB-Bench: Benchmarking LLMs for Printed Circuit Board Placement and Routing**  
+<sup>Jindong Li, Lianrong Chen, Bin Yang, Jiadong Zhu, Ying Wang, Yuzhe Ma, Menglin Yang</sup>  
+[Paper](https://openreview.net/forum?id=Q5QLu7XTWx)/[Code](https://github.com/digailab/PCB-Bench)/[Project](https://digailab.github.io/PCB-Bench/)
+
+| <img width="400" alt="image" src="https://github.com/user-attachments/assets/3ce8a3d8-730c-4aee-b6be-61e90b680e4f" /> | <img width="400" alt="image" src="https://github.com/user-attachments/assets/20714254-f095-4fdf-8992-16a1bdd82bdc" /> |
+| :-----------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------: |
+| **Task:** PCB placement and routing understanding through textual, multimodal, and real-world EDA design reasoning. | **Modeling:** LLM/MLLM-based engineering reasoning over text, PCB layout images, and EDA screenshots under a unified zero-shot evaluation protocol. |
+
+
+### 2026 | Sky Segmentation | MLKE
+**SkySeg-Net: Sky Segmentation-Based Row-Terminal Recognition in Trellised Orchards**  
+<sup>Haiyang Gu, Yong Wang, Huaiyang Liu, Tong Tian, Changxing Geng, Yun Shi</sup>  
+[Paper](https://www.mdpi.com/2504-4990/8/2/46)
+
+| <img width="400" alt="image" src="https://github.com/user-attachments/assets/60c9548a-bc0d-49aa-b267-9a48de2cf37f" /> | <img width="400" alt="image" src="https://github.com/user-attachments/assets/3ca6033e-ba6e-47e3-b3a0-5ae044d162ee" /> |
+|:------------------------------------------------:|:------------------------------------------------:|
+| **Task:** Sky-region segmentation for row-terminal recognition in trellised orchards. | **Modeling:** Pixel-level sky segmentation with an enhanced multi-scale U-Net, using ResNeSt, CBAM, and PPM to infer row-terminal positions from sky-area changes. |
+
+
+### 2026 | Waste Segmentation | ICML
+**Towards Effective Waste Segmentation for Automated Waste Recycling in Cluttered Background**  
+<sup>Mamoona Javaid, Mubashir Noman, Abdul Hannan, Shah Nawaz, Mustansar Fiaz, Sajid Ghuffar</sup>  
+[Paper](https://arxiv.org/abs/2606.13587)/[Code](https://github.com/techmn/ewsegnet)
+
+| <img width="400" alt="image" src="https://github.com/user-attachments/assets/20262a82-413c-40bf-b9f2-d1c5cbb3a1a2" /> | <img width="400" alt="image" src="https://github.com/user-attachments/assets/0170ea50-43d9-4f14-8748-ae7b3d499613" /> |
+|:------------------------------------------------:|:------------------------------------------------:|
+| **Task:** Waste object segmentation for automated waste recycling in cluttered backgrounds, aiming to accurately segment recyclable or removable waste objects from complex conveyor-belt scenes with heavy occlusion, deformation, and background clutter. | **Modeling:** The recycling scene is formulated as a pixel-level waste segmentation problem. The proposed network cascades spatial-domain modeling for localized structural dependencies and spectral-domain modeling for global contextual relationships, while an auxiliary feature enhancement module strengthens object boundaries and blob-like target regions for robust segmentation in cluttered scenarios. |
+
+
+### 2026 | Microstructure Image Segmentation | IJCAI
+**IPSM-Bench: A New Intermediate Phase Segmentation Benchmark in Microstructure Images of Zinc-Based Absorbable Biomaterials**  
+<sup>Jinglin Xu, Shangyan Zhao, Jiabo Wang, Xinghong Mu, Yulong Lei, Jiacheng Zhang, Hongbo Sun, Yageng Li</sup>  
+[Paper](https://arxiv.org/abs/2606.11001)/[Code&Dataset](https://github.com/AgileMotionTeam/IPSM-Bench)
+
+| <img width="400" alt="image" src="https://github.com/user-attachments/assets/5cc8a404-e94d-4084-98c7-8cd45d8dcd52" /> | <img width="400" alt="image" src="https://github.com/user-attachments/assets/eb8c2fe2-e6f3-4000-a355-4ed6fbb40a83" /> |
+|:------------------------------------------------:|:------------------------------------------------:|
+| **Task:** Intermediate phase segmentation in zinc-based absorbable biomaterial microstructure images. | **Modeling:** Pixel-level microstructure segmentation with IPSM-Bench; SCoP-SAM guides SAM using spatial context priors from gradient and grayscale cues. |
+
+
+### 2025 | Ground-based Cloud Image Segmentation | arXiv
+**MPCM-Net: A Multi-scale Network that Integrates Partial Attention Convolution with Mamba for Ground-based Cloud Image Segmentation**  
+<sup>Penghui Niu, Jiashuai She, Taotao Cai, Yajuan Zhang, Ping Zhang, Junhua Gu, Jianxin Li</sup>  
+[Paper](https://arxiv.org/html/2511.11681)/[Code](https://github.com/she1110/CSRC)
+
+| <img width="400" alt="image" src="https://github.com/user-attachments/assets/78cc2a02-d963-45fe-ac2c-ea407289fe3b" /> | <img width="400" alt="image" src="https://github.com/user-attachments/assets/e739d703-9515-428c-a8d5-0367c64f66fd" /> |
+| :----------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| **Task:** Fine-grained ground-based cloud image segmentation with four classes (white cloud, gray cloud, sun, and background) for photovoltaic power forecasting. | **Modeling:** Encoder-decoder segmentation with multi-scale partial attention convolution and Mamba-based decoding for cloud boundary and scale-aware feature modeling. |
+
+
+### 2025 | Historical Map Segmentation | ICDAR  
+**Few-Shot Segmentation of Historical Maps via Linear Probing of Vision Foundation Models**  
+<sup>Rafael Sterzinger, Marco Peer, Robert Sablatnig</sup>  
+[Paper](https://arxiv.org/abs/2101.02144)
+
+| <img width="400" src="https://github.com/user-attachments/assets/ba145210-e2c4-41dd-9966-eb728bab95ac" /> | <img width="400" src="https://github.com/user-attachments/assets/cb164428-a394-44c6-84ff-339deec9d31a" /> |
+|:------------------------------------------------:|:------------------------------------------------:|
+| **Task:** Historical map segmentation, aiming to parse scanned historical maps and segment meaningful cartographic or geographic elements such as railways, vineyards, and building blocks from visually heterogeneous map styles. | **Modeling:** The scanned historical map is treated as an image and its symbolic geographic content is converted into pixel-level semantic regions. |
+
+
 ### 2025 | MDD | ICCV
 **MDD: A Dataset for Text-and-Music Conditioned Duet Dance Generation**  
 <sup>Prerit Gupta, Jason Alexander Fotso-Puepi, Zhengyuan Li, Jay Mehta, Aniket Bera</sup>  
@@ -178,6 +265,17 @@
 | <img src="images/PBD-task.png" width="400"/> | <img src="images/PBD-result.png" width="400"/> |
 |:---------------------------------------------:|:----------------------------------------------:|
 | **Task:** Fine-grained detection of battery plates from X-ray/CT images. | **Modeling:**  Multi-dimensional collaborative framework (point, line, number). |
+
+### 2023 | Crater Detection | arXiv
+**Deep Learning based Systems for Crater Detection: A Review**
+<sup>Atal Tewari, K. Prateek, Amrita Singh, Nitin Khanna</sup>
+[Paper](https://arxiv.org/abs/2310.07727)
+
+| <img src="https://github.com/user-attachments/assets/5bb8f1bb-930c-402c-b8fb-295bd35ea426" width="500"/> |                                          <img src="https://github.com/user-attachments/assets/ee46af4a-9ddf-4322-9375-de0b4dc86b6e" height="200"/>                                           |
+| :------------------------------------------------------------------------------------------------------- | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| **Task:** Crater detection on lunar digital elevation maps (DEMs).                                       | **Modeling:** It can be formulated as candidate-region classification, crater-mask segmentation with post-processing, or direct object detection for estimating crater locations and sizes. |
+
+NOTE: *The planetary data mainly used for crater detection are digital orthophoto maps (DOMs), digital elevation maps (DEMs), and near IR images. These data’s characteristics differ from one another, such as DOMs and infrared images are affected by sun angle and cause highlight and shadow patterns. In contrast, DEMs are unaffected but lack complex terrain information.*
 
 ### 2023 | WireSegHR | CVPR  
 **Automatic High Resolution Wire Segmentation and Removal**  
